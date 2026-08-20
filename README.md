@@ -20,10 +20,11 @@
 Kawangya.github.io/
 ├── index.html              # 主页
 ├── pages/                  # 子页面目录
-│   ├── cswj.html           # 相关内容页面
+│   ├── cswj.html           # md转html备用页面
 │   ├── llqssyf.html        # 浏览器搜索语法页面
-│   ├── tytzgj.html         # 其他说明页面
-│   └── zhbfx.html          # 资源说明页面
+│   ├── wdyy.html           # 我的应用页面
+│   ├── tytzgj.html         # 跳转工具页面
+│   └── zhbfx.html          # 整合包分享页面
 ├── css/                    # 样式表目录
 │   ├── style.css           # 主样式文件
 │   └── aistyle.css         # 子页面额外样式文件

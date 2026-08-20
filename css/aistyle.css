@@ -283,10 +283,11 @@ summary * {
     user-select: none;
 }
 
-details > :not(summary) {
+details> :not(summary) {
     -webkit-user-select: text;
     user-select: text;
 }
+
 summary::-webkit-details-marker {
     display: none;
 }

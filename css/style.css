@@ -257,7 +257,7 @@ summary * {
     user-select: none;
 }
 
-details > :not(summary) {
+details> :not(summary) {
     -webkit-user-select: text;
     user-select: text;
 }
