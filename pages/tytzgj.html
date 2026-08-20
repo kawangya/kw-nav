@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -139,6 +140,7 @@
     }
   </style>
 </head>
+
 <body>
   <div id="encrypted-container">
     <div class="tool-card">
@@ -175,7 +177,7 @@
   </div>
 
   <script>
-    (function() {
+    (function () {
       const inputEl = document.getElementById('idInput');
       const jumpBtn = document.getElementById('jumpBtn');
       const targetSelect = document.getElementById('targetSelect');
@@ -257,24 +259,25 @@
       }
 
       jumpBtn.addEventListener('click', jumpTo);
-      inputEl.addEventListener('keydown', function(e) {
+      inputEl.addEventListener('keydown', function (e) {
         if (e.key === 'Enter') {
           e.preventDefault();
           jumpTo();
         }
       });
 
-      targetSelect.addEventListener('change', function() {
+      targetSelect.addEventListener('change', function () {
         updatePlaceholder();
         inputEl.value = '';
         inputEl.focus();
       });
 
-      window.addEventListener('load', function() {
+      window.addEventListener('load', function () {
         updatePlaceholder();
         inputEl.focus();
       });
     })();
   </script>
 </body>
+
 </html>
