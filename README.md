@@ -1,42 +1,36 @@
 # 卡王的个人导航站
 
-这是一个基于静态 HTML/CSS/JS 的个人导航网站，主要用于展示个人社交账号、Minecraft 相关资源、实用工具和一些常用内容。
+这是一个基于静态 HTML/CSS/JS 构建的 Minecraft 主题个人导航站，集中整理卡王的官方社交账号、交流入口、网易版皮肤投稿方式和 Minecraft 代安装服务。同时收录浏览器搜索语法、崩溃日志分析、网页套壳工具等教程与实用资料，方便访问者快速找到需要的内容。
 
 ## 🌐 主要入口
 - [主导航页面](https://kawangya.github.io/)
 
 ## 📌 当前项目内容
 - 首页入口：index.html
-- 其他子页面：pages/，包含如浏览器搜索语法、资源说明等内容
-- 主样式文件：css/style.css
-- 子页面补充样式：css/aistyle.css
-- 通用脚本：js/script.js
-- Markdown 解析库：js/marked.umd.js
-- 图片资源：images/，包含网站图标和二维码图片
-- 其他内容：fullbackup/
+- 子页面：pages/，包含 浏览器搜索语法、通用跳转工具、个人应用和整合包分享页面
+- 页面样式：css/aistyle.css；css/style.css 为备用样式文件，部分页面使用内置样式
+- 通用脚本：js/script.js，提供复制内容、图片放大等功能
+- 图片资源：images/，包含网站图标和公众号、QQ 联系方式二维码
 
 ## 🧱 项目结构
 ```text
-Kawangya.github.io/
+kw-nav/
 ├── index.html              # 主页
 ├── pages/                  # 子页面目录
-│   ├── cswj.html           # md转html备用页面
 │   ├── llqssyf.html        # 浏览器搜索语法页面
-│   ├── wdyy.html           # 我的应用页面
-│   ├── tytzgj.html         # 跳转工具页面
-│   └── zhbfx.html          # 整合包分享页面
+│   ├── tytzgj.html         # 通用跳转工具页面
+│   ├── wdyy.html           # 个人应用页面
+│   └── zhbfx.html          # Minecraft 整合包分享页面
 ├── css/                    # 样式表目录
-│   ├── style.css           # 主样式文件
-│   └── aistyle.css         # 子页面额外样式文件
+│   ├── aistyle.css         # 页面通用样式
+│   └── style.css           # 备用样式文件
 ├── js/                     # JavaScript 目录
-│   ├── script.js           # 通用脚本
-│   └── marked.umd.js       # Markdown 解析库
+│   └── script.js           # 通用脚本
 ├── images/                 # 图片资源目录
 │   ├── favicon.ico         # 网站图标
 │   ├── apple-touch-icon.png
 │   ├── qqhy.png            # 联系方式图片
 │   └── wxgzh.png           # 公众号图片
-├── fullbackup/             # 其他内容
 ├── LICENSE                 # 开源许可证
 └── README.md               # 项目说明
 ```
