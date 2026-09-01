@@ -9,7 +9,7 @@
 - 首页入口：index.html
 - 子页面：pages/，包含 浏览器搜索语法、通用跳转工具、个人应用和整合包分享页面
 - 页面样式：css/aistyle.css；css/style.css 为备用样式文件，部分页面使用内置样式
-- 通用脚本：js/script.js，提供复制内容、图片放大等功能
+- 通用脚本：js/script.js;js/protect.min.js，提供复制内容、图片放大、背景动画等功能
 - 图片资源：images/，包含网站图标和公众号、QQ 联系方式二维码
 
 ## 🧱 项目结构
@@ -25,6 +25,7 @@ kw-nav/
 │   ├── aistyle.css         # 页面通用样式
 │   └── style.css           # 备用样式文件
 ├── js/                     # JavaScript 目录
+│   ├── protect.min.js      # 背景动画
 │   └── script.js           # 通用脚本
 ├── images/                 # 图片资源目录
 │   ├── favicon.ico         # 网站图标
