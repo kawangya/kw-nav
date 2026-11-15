@@ -11,12 +11,15 @@
 - 支持导入、导出本地设置
 - 支持可视化编辑导航，并可选通过 GitHub API 保存导航数据
 - 支持快捷键 `/` 或 `Ctrl/Cmd+K` 聚焦导航搜索；方向键可在导航卡片间移动焦点
+- 支持作为 PWA 安装，并可使用已缓存的页面资源和数据离线访问
 
 ## 项目结构
 
 ```text
 .
 ├── index.html             # 入口
+├── manifest.json          # PWA 应用信息
+├── sw.js                  # Service Worker 与离线缓存
 ├── data/
 │   ├── script.js          # 交互逻辑与数据加载
 │   ├── style.css          # 样式与响应式布局
@@ -39,6 +42,12 @@ python -m http.server 8000
 然后访问：<http://localhost:8000/>
 
 通过 HTTP 服务预览可避免浏览器限制直接读取本地 JSON 文件。项目无需安装依赖或执行构建。
+
+## PWA 与离线访问
+
+网站提供 Web App Manifest 和 Service Worker，支持在兼容的浏览器中安装为独立窗口应用。Service Worker 会预缓存页面核心资源；JSON 数据采用网络优先策略，联网时获取最新内容并更新缓存，断网时回退到此前成功缓存的数据。
+
+首次在线访问并缓存所需数据后，断网时可继续使用已缓存的页面资源和数据；尚未缓存的数据离线时不可用。安装及 Service Worker 通常需要通过 HTTPS 访问，本地开发可使用 `localhost`。
 
 ## 修改网站数据
 
