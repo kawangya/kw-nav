@@ -1,0 +1,703 @@
+{
+  "categories": [
+    {
+      "id": "mc",
+      "title": "MC导航",
+      "default": true,
+      "groups": [
+        {
+          "id": "nav",
+          "title": "导航聚合",
+          "items": [
+            {
+              "name": "MCNav",
+              "url": "https://www.mcnav.net/",
+              "desc": "Minecraft 综合导航站，汇总官方入口、资源下载、开服工具、启动器、皮肤、地图与各类实用 MC 工具，方便玩家一站式查找。"
+            },
+            {
+              "name": "MCiSEE",
+              "url": "https://mcisee.top/",
+              "desc": "Minecraft 综合导航站，汇总启动器、模组、资源包、皮肤、开服工具与查询工具，覆盖 Java 版和基岩版，方便玩家一站式查找 MC 资源。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793452355536",
+          "title": "Java下载",
+          "items": [
+            {
+              "name": "Adoptium",
+              "url": "https://adoptium.net/zh-CN/temurin/releases",
+              "desc": "开源 Java 运行时项目，主打高质量、安全的 Eclipse Temurin OpenJDK 发行版，覆盖开发到生产环境。"
+            },
+            {
+              "name": "BellSoft",
+              "url": "https://bell-sw.com/pages/downloads/",
+              "desc": "主打 Liberica JDK 等开源 Java 运行时与云原生方案，提供 TCK 验证、容器优化和企业级支持。"
+            },
+            {
+              "name": "Oracle",
+              "url": "https://www.oracle.com/cn/java/technologies/downloads/",
+              "desc": "官方 Java 下载页，提供各版本 JDK/JRE 下载，适合开发与运行 Java 应用，生产及商业用途需注意许可条款。"
+            },
+            {
+              "name": "清华开源镜像站",
+              "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/",
+              "desc": "提供 Eclipse Temurin JDK/JRE 国内加速下载，适合替代官方源拉取各版本安装包。"
+            },
+            {
+              "name": "Azul",
+              "url": "https://www.azul.com/downloads/",
+              "desc": "提供 Zulu 等 OpenJDK 构建，覆盖多版本、多平台，含开源发行版、商业优化版及运行时性能分析工具。"
+            },
+            {
+              "name": "GraalVM",
+              "url": "https://www.graalvm.org/downloads/",
+              "desc": "提供高性能 OpenJDK 构建，支持原生镜像与多平台，适合微服务和云原生场景。"
+            },
+            {
+              "name": "IBM Semeru",
+              "url": "https://developer.ibm.com/languages/java/semeru-runtimes/downloads/",
+              "desc": "提供基于 OpenJDK 的预构建 Java 运行时，支持多版本多平台，含 jextract 与原生接口工具。"
+            },
+            {
+              "name": "Amazon Corretto",
+              "url": "https://aws.amazon.com/cn/corretto/",
+              "desc": "AWS 推出的免费、生产就绪 OpenJDK 发行版，跨平台、长期支持，含性能优化与安全修复，适合开发与生产环境。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793455900118",
+          "title": "官方启动器",
+          "items": [
+            {
+              "name": "Minecraft",
+              "url": "https://www.minecraft.net/",
+              "desc": "Minecraft 官方网站，提供正版下载、版本与衍生内容介绍，以及市场、教育版和中国区入口。"
+            },
+            {
+              "name": "我的世界中国版",
+              "url": "https://mc.163.com",
+              "desc": "网易《我的世界》中国版官网，提供端游/手游下载，以及模组、皮肤、联机、租赁服等资源和功能。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793454191448",
+          "title": "基岩版本库",
+          "items": [
+            {
+              "name": "MC版本库",
+              "url": "http://bbk.endyun.ltd",
+              "desc": "提供我的世界国际版多版本安装包下载，主打手机版各版本安全获取与快速安装。"
+            },
+            {
+              "name": "MCAPKS",
+              "url": "https://mcapks.net/",
+              "desc": "Minecraft 国际版全版本下载站，提供多版本安装包浏览与下载，并引导正版购买。"
+            }
+          ]
+        },
+        {
+          "id": "launcher",
+          "title": "三方启动器（PC）",
+          "items": [
+            {
+              "name": "HMCL",
+              "url": "https://hmcl.huangyuhui.net",
+              "desc": "开源 Minecraft 启动器，支持多系统、自动安装与各加载器，可导入导出整合包，并自定义主题。"
+            },
+            {
+              "name": "PCL",
+              "url": "https://github.com/Meloong-Git/PCL",
+              "desc": "PCL 官方源码仓库，Minecraft 启动器 Plain Craft Launcher 的开源代码，含 UI、动画、下载与游戏启动模块，发布新版时同步更新。",
+              "links": [
+                {
+                  "text": "蓝奏云(提取码：pcl2)",
+                  "url": "https://ltcat.lanzouv.com/b0aj6gsid"
+                }
+              ]
+            },
+            {
+              "name": "PCL CE",
+              "url": "https://github.com/PCL-Community/PCL-CE",
+              "desc": "PCL 启动器的社区维护版，基于开源代码二次开发，包含主线未上线的功能与改进；版本号不与官方严格对应，问题勿反馈官方，优先支持最新版与 Windows 环境。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793455568286",
+          "title": "三方启动器（安卓）",
+          "items": [
+            {
+              "name": "FCL",
+              "url": "https://github.com/FCL-Team/FoldCraftLauncher",
+              "desc": "Android 端 Minecraft Java 版启动器，基于 HMCL 核心与 Amethyst-Android 后端，支持全版本和模组运行。"
+            },
+            {
+              "name": "Zalith Launcher",
+              "url": "https://www.zalithlauncher.cn/",
+              "desc": "Android 端 Minecraft Java 版启动器，界面简洁，支持版本管理、模组/资源整合包下载、渲染器调节与联机，开源社区维护。",
+              "links": [
+                {
+                  "text": "Github",
+                  "url": "https://github.com/ZalithLauncher/ZalithLauncher2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "community",
+          "title": "资源社区（Java版）",
+          "items": [
+            {
+              "name": "CurseForge",
+              "url": "https://www.curseforge.com/minecraft",
+              "desc": "Minecraft 主流模组与整合包平台，提供模组、整合包等资源下载，覆盖优化、建筑、战斗、探索等玩法。"
+            },
+            {
+              "name": "Modrinth",
+              "url": "https://modrinth.com/",
+              "desc": "Minecraft 现代模组平台，提供模组、整合包、资源包等内容，搜索快、支持启动器集成与创作者发布管理。"
+            },
+            {
+              "name": "MC百科",
+              "url": "https://www.mcmod.cn/",
+              "desc": "国内最大的 Minecraft 中文模组资料库，提供模组介绍、物品资料、教程与下载索引，方便查版本兼容和用法。"
+            },
+            {
+              "name": "BBSMC",
+              "url": "https://bbsmc.net/",
+              "desc": "中文 Minecraft 资源社区，提供模组、整合包、光影、资源包下载与分享，含大量汉化整合包和多样玩法内容。"
+            },
+            {
+              "name": "Planet",
+              "url": "https://www.planetminecraft.com/",
+              "desc": "Minecraft 创意社区站，提供皮肤、材质、地图、数据包等玩家作品分享与下载，含社区活动和创作交流。"
+            },
+            {
+              "name": "MinecraftMaps",
+              "url": "https://www.minecraftmaps.com/",
+              "desc": "老牌 MC 自定义地图库，提供冒险、跑酷、生存、解谜、恐怖等地图免费下载，支持 Java 版和基岩版。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793456156087",
+          "title": "资源社区（基岩版）",
+          "items": [
+            {
+              "name": "MCPEDL",
+              "url": "https://mcpedl.com/",
+              "desc": "Minecraft 基岩版资源站，提供模组、附加包、地图、皮肤、种子和材质包免费下载。"
+            },
+            {
+              "name": "MineBBS",
+              "url": "https://www.minebbs.com/",
+              "desc": "MC 综合中文论坛，提供 Java/基岩双端资源、服务端插件、开服教程与社区交流。"
+            },
+            {
+              "name": "苦力怕论坛",
+              "url": "https://klpbbs.com/",
+              "desc": "Minecraft 中文社区，以基岩版资源为特色，提供模组、附加包、地图、材质、皮肤下载与教程、联机、问答交流。"
+            }
+          ]
+        },
+        {
+          "id": "online",
+          "title": "联机工具",
+          "items": [
+            {
+              "name": "Radmin LAN",
+              "url": "https://www.radmin-lan.cn/",
+              "desc": "免费虚拟组网工具，可穿透防火墙建立加密局域网，适合远程办公、团队互联和异地联机玩游戏。"
+            },
+            {
+              "name": "樱花内网穿透",
+              "url": "https://www.natfrp.com/",
+              "desc": "免费内网穿透服务，提供端口映射、高速节点和不限流量套餐，适合 MC 开服、NAS 访问、本地调试，无需公网 IP。"
+            }
+          ]
+        },
+        {
+          "id": "skin",
+          "title": "皮肤披风相关",
+          "items": [
+            {
+              "name": "Blockbench",
+              "url": "https://www.blockbench.net/",
+              "desc": "免费开源的低多边形 3D 模型编辑器，支持建模、贴图、UV 与骨骼动画，专为 Minecraft 资源（Java/基岩版）和像素风游戏资产设计，可插件扩展。"
+            },
+            {
+              "name": "新_Mcskin3d",
+              "url": "https://apps.microsoft.com/detail/9N8SJT329HH1",
+              "desc": "皮肤编辑与管理工具，支持在模型上直接绘制、2D 贴图编辑和本地皮肤库管理。",
+              "links": [
+                {
+                  "text": "旧_Mcskin3d(汉化版)",
+                  "url": "https://kawang.lanzoul.com/ieJDI423aszi"
+                }
+              ]
+            },
+            {
+              "name": "网页皮肤编辑器",
+              "url": "https://studio.tdogmc.cn/zh_cn/",
+              "desc": "免费在线 MC 皮肤编辑器，支持 2D/3D 实时预览、画笔填充与镜像绘制，可导出 Java/基岩版通用 PNG 皮肤。",
+              "links": [
+                {
+                  "text": "Mcskin3d网页版",
+                  "url": "https://www.planetminecraft.com/skin-editor/"
+                },
+                {
+                  "text": "网页皮肤编辑器2",
+                  "url": "https://minecraftskineditor.org/"
+                },
+                {
+                  "text": "网页皮肤编辑器3",
+                  "url": "https://skineditor.org/zh"
+                }
+              ]
+            },
+            {
+              "name": "网页披风编辑器",
+              "url": "https://lraty-li.github.io/Minecraft-Cape-Generator/",
+              "desc": "披风在线生成工具，支持实时预览、下载、分辨率设置和披风各面布局调整。",
+              "links": [
+                {
+                  "text": "网页披风编辑器2",
+                  "url": "https://studio.tdogmc.cn/zh_cn/cape"
+                },
+                {
+                  "text": "网页披风编辑器3",
+                  "url": "https://mctools.gg/cape-editor"
+                }
+              ]
+            },
+            {
+              "name": "皮肤重新着色",
+              "url": "https://www.mcskinrecolor.com/",
+              "desc": "在线 MC 皮肤改色工具，快速给皮肤重新配色，让外观更个性。"
+            },
+            {
+              "name": "LittleSkin",
+              "url": "https://littleskin.cn/",
+              "desc": "国内公益型 Minecraft 皮肤站，提供皮肤、披风上传管理与一键预览，兼容主流加载方案，基础服务免费、加载快。",
+              "links": [
+                {
+                  "text": "红石皮肤站",
+                  "url": "https://mcskin.com.cn/"
+                },
+                {
+                  "text": "视频教程",
+                  "url": "https://www.bilibili.com/video/BV1VL411q7Vt/"
+                },
+                {
+                  "text": "图文教程",
+                  "url": "https://mp.weixin.qq.com/s/02cXHhFw7Qk2G-0Fy1qdwA"
+                }
+              ]
+            },
+            {
+              "name": "MinecraftCapes",
+              "url": "https://minecraftcapes.net/",
+              "desc": "免费自定义披风模组与社区，可穿戴自制或画廊披风，支持 Java 版，附带服务器社区入口。",
+              "links": [
+                {
+                  "text": "视频教程",
+                  "url": "https://www.bilibili.com/video/BV1VL411q7Vt/"
+                },
+                {
+                  "text": "图文教程",
+                  "url": "https://mp.weixin.qq.com/s/02cXHhFw7Qk2G-0Fy1qdwA"
+                }
+              ]
+            },
+            {
+              "name": "NameMC",
+              "url": "https://namemc.com/",
+              "desc": "Minecraft 玩家档案站，可查正版 ID、名称历史、皮肤披风，并浏览热门皮肤与社区排行。",
+              "links": [
+                {
+                  "text": "玩家查询",
+                  "url": "https://mcindex.gg/"
+                }
+              ]
+            },
+            {
+              "name": "Skinseed",
+              "url": "https://play.google.com/store/apps/details?id=com.africasunrise.skinseed",
+              "desc": "手机皮肤编辑器与社区，支持 3D 预览、智能纹理、200 万+皮肤库和一键导出到 Java/基岩版。",
+              "links": [
+                {
+                  "text": "汉化版(提取码：kawang)",
+                  "url": "https://kawang.lanzoul.com/b0xwto5hg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_1793847061583",
+          "title": "图片壁纸",
+          "items": [
+            {
+              "name": "NovaSkin",
+              "url": "https://wallpapers.novaskin.me/",
+              "desc": "壁纸站，可用自己的 MC 皮肤定制游戏壁纸，最高支持 4K 分辨率。",
+              "links": [
+                {
+                  "text": "MinePix",
+                  "url": "https://www.minepix.app/"
+                },
+                {
+                  "text": "MCNeko壁纸生成器",
+                  "url": "https://www.mcneko.com/tools/wallpaper/"
+                }
+              ]
+            },
+            {
+              "name": "头像生成器",
+              "url": "https://mccag.cn/",
+              "desc": "MC 可爱头像在线生成器，支持正版 ID、皮肤站和本地上传，可切换多种风格并导出头像图片。",
+              "links": [
+                {
+                  "text": "头像生成器2",
+                  "url": "https://www.minecraftmaps.com/tools/avatar-maker"
+                }
+              ]
+            },
+            {
+              "name": "Logo生成器",
+              "url": "https://textcraft.net/",
+              "desc": "免费在线文字 Logo 生成器，选模板填文字即可实时生成图片，适合快速做标题、按钮和横幅。",
+              "links": [
+                {
+                  "text": "Logo生成器2",
+                  "url": "https://ja.cooltext.com/"
+                },
+                {
+                  "text": "Logo生成器3",
+                  "url": "https://3dtext.easecation.net/"
+                },
+                {
+                  "text": "Logo生成器4",
+                  "url": "https://colorize.fun/en/minecraft"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_1793849885277",
+          "title": "工具指南",
+          "items": [
+            {
+              "name": "我的世界百科",
+              "url": "https://minecraftsearch.com",
+              "desc": "百科与工具箱，可查物品/生物/配方数据，并提供种子地图、结构矿石定位、附魔规划和指令生成等实用工具。"
+            },
+            {
+              "name": "Chunk Base",
+              "url": "https://www.chunkbase.com/",
+              "desc": "Minecraft 种子与地形查询工具站，提供种子地图、群系/地牢/洞穴查找器，适合快速定位遗迹、结构和资源分布。",
+              "links": [
+                {
+                  "text": "Seeder",
+                  "url": "https://www.mcseeder.com/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "title": "游戏相关",
+      "groups": [
+        {
+          "id": "group_1793856266738",
+          "title": "游戏情报站",
+          "items": [
+            {
+              "name": "FreeSteam",
+              "url": "https://freesteam.games/",
+              "desc": "游戏福利情报站，汇总 Steam、Epic、GOG 等平台的限时免费游戏、免费激活码、DLC 与组合包信息，方便玩家快速捡漏。"
+            },
+            {
+              "name": "games.gg",
+              "url": "https://games.gg/",
+              "desc": "游戏综合站：查 2500+ 游戏资料、看评测/攻略/兑换码、追发售日历和行业新闻，还能比价找折扣、绑多平台账号统管游戏库，附带 GAMES+ 会员和桌面悬浮窗。"
+            },
+            {
+              "name": "GamePulse",
+              "url": "https://gamepulse.pl/",
+              "desc": "游戏动态聚合站，集中抓 Steam/各厂商的创作者公告、补丁说明、发售预告，外加免费领取、PC 优惠和 3A/独立新作动态，适合每天快速扫一遍游戏圈更新。"
+            },
+            {
+              "name": "Game Informer",
+              "url": "https://gameinformer.com/",
+              "desc": "老牌游戏媒体站，主打新闻、评测、新作前瞻、视频和发售日期，内容偏专业编辑向，常有大作深度专题和封面企划。"
+            },
+            {
+              "name": "Patchnotes.fyi",
+              "url": "https://patchnotes.fyi/",
+              "desc": "游戏新闻聚合站：把 IGN、Eurogamer、Nintendo Life 等多家媒体消息压成时间线概览，按 24 小时/近一周/近一月分组，每条带来源、时间和标签，专看补丁、官宣、发售动态和行业大事，适合快速扫全局不用挨个点开原站。"
+            },
+            {
+              "name": "Playground.ru",
+              "url": "https://www.playground.ru/",
+              "desc": "俄罗斯老牌游戏综合站：集中看游戏新闻、补丁、模组、汉化、攻略、通关流程，还提供修改器、训练器、存档、代码和价格折扣，附带社区论坛与资源下载区。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793855570450",
+          "title": "游戏平台",
+          "items": [
+            {
+              "name": "Steam",
+              "url": "https://store.steampowered.com/",
+              "desc": "Valve 旗下的综合游戏平台，支持买游戏、下载管理、云存档、社区交流、创意工坊、市场与直播。"
+            },
+            {
+              "name": "Epic",
+              "url": "https://www.epicgames.com/",
+              "desc": "PC 游戏商城与发行平台，提供买游戏、DLC、特卖和《Fortnite》等内容，常送免费游戏。"
+            },
+            {
+              "name": "GOG",
+              "url": "https://store-static-modular.gog-statics.com/",
+              "desc": "无 DRM 的 PC 游戏平台，主打买断制、可离线安装和精选游戏库，附带轻量客户端与玩家社区，强调“买了就是你的”。"
+            },
+            {
+              "name": "WeGame",
+              "url": "https://www.wegame.com.cn",
+              "desc": "腾讯旗下国区 PC 游戏平台，提供游戏商店、下载管理、开黑社区、高校活动和开发者发行支持。"
+            },
+            {
+              "name": "发烧游戏",
+              "url": "https://fever.163.com/",
+              "desc": "网易官方 PC 游戏平台，集中下载、更新网易系游戏（含《蛋仔派对》PC 版、《燕云十六声》、《漫威争锋》、《界外狂潮》等），带商店入口和 MuMu 模拟器/UU 加速器联动，适合只玩网易游戏的人一个客户端管完。"
+            },
+            {
+              "name": "itch.io",
+              "url": "https://itch.io/",
+              "desc": "独立游戏与数字创作平台，支持开发者自由发布、自主定价和网页直玩，偏实验性、小众作品与 Game Jam 内容。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793855838218",
+          "title": "模组社区",
+          "items": [
+            {
+              "name": "Nexus Mods",
+              "url": "https://www.nexusmods.com/",
+              "desc": "老牌综合模组平台，覆盖几千款游戏、几十亿下载量，支持一键装合集、画质/玩法/内容扩展全有，还能逛社区、传自己做的模组。"
+            },
+            {
+              "name": "GameBanana",
+              "url": "https://gamebanana.com/",
+              "desc": "老牌游戏模组社区，2001 年起做免费模组分享，偏皮肤、模型、地图、音效和外观类 Mod，FPS、格斗、独立游戏资源尤其多，下载大多不用登录，还能对接一键安装器。"
+            },
+            {
+              "name": "CurseForge",
+              "url": "https://www.curseforge.com/",
+              "desc": "综合游戏模组平台，MC 模组/整合包最全，也覆盖魔兽、模拟人生、方舟等；配桌面客户端能一键装模组、自动管版本和依赖、安全扫描，适合一次性塞一堆 Mod 不手动搬文件。"
+            },
+            {
+              "name": "3DM",
+              "url": "https://mod.3dmgame.com/",
+              "desc": "3DM 旗下中文模组资源站，集中下载热门单机游戏的 Mod、画质/人物/装备资源、整合包和 Mod 工具，带中文说明、版本标注和社区评论，对新手友好。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793857387217",
+          "title": "单机工具",
+          "items": [
+            {
+              "name": "MTool",
+              "url": "https://mtool.app/",
+              "desc": "跨平台（PC/安卓）的游戏翻译与运行辅助工具，把游戏拖进去就能自动配环境、一键提取并翻译文本，解决 RTP/DLL 缺失、中文路径、系统语言等坑，适合玩没汉化的 RPG Maker / 引擎小游戏，翻译后离线也能跑。"
+            },
+            {
+              "name": "GameLingo",
+              "url": "https://www.gamelingo.cn/",
+              "desc": "单机游戏实时汉化助手：拖游戏进去做补丁注入翻译，当前主力适配 RPG Maker MV / MZ，运行时回显译文，还带道具/开关/变量等轻量金手指；Ren'Py、Unity、Wolf、Bakin 等引擎仍在实验或未验证阶段。"
+            },
+            {
+              "name": "Save Editor Online",
+              "url": "https://www.saveeditonline.com/",
+              "desc": "网页版游戏存档修改器，免安装上传即用，自动识别 RPG Maker / Ren'Py / Unity / UE4-5 / Godot / HTML 等引擎的存档格式（.save .sav .rpgsave .sqlite .dat 等），可改金币、物品、属性、变量、文本，适合单机游戏快速调档。"
+            },
+            {
+              "name": "SaveEditor.top",
+              "url": "https://saveeditor.top/",
+              "desc": "网页版存档修改器：浏览器本地解析，支持 RPG Maker / Unity / Ren'Py / Unreal / Palworld / GameMaker 等，改金币、属性、物品、变量，单文件 50MB 内、不用装软件，部分加密格式只读或有限写入。"
+            },
+            {
+              "name": "SaveGame.org",
+              "url": "https://savegame.org/",
+              "desc": "网页版存档编辑站：完全浏览器本地处理、不上传文件，支持 RPG Maker / Ren'Py / Unity / 星露谷 / 空洞骑士 / 杀戮尖塔 / DDLC 等，改金币、属性、物品、剧情开关，导出时自动带 .bak 原档备份，还附带「存档位置数据库」帮你找游戏存档路径。"
+            }
+          ]
+        },
+        {
+          "id": "games",
+          "title": "修改器",
+          "items": [
+            {
+              "name": "Cheat Engine",
+              "url": "https://www.cheatengine.org/",
+              "desc": "开源内存修改/调试工具，能扫内存、改数值、反汇编、写 Lua 脚本和做训练器，偏硬核，适合单机游戏私改和逆向学习。",
+              "links": [
+                {
+                  "text": "Cheat Engine社区",
+                  "url": "https://fearlessrevolution.com/"
+                }
+              ]
+            },
+            {
+              "name": "风灵月影",
+              "url": "https://flingtrainer.com/",
+              "desc": "PC 单机训练器下载站，按游戏提供多功能修改器，标注适配版本和更新时间，即开即用。"
+            },
+            {
+              "name": "WeMod",
+              "url": "https://www.wemod.com/zh",
+              "desc": "PC 单机修改器客户端，自动识别已装游戏，提供社区测试过的秘籍、数值调整和游戏内悬浮窗，配交互式地图，零基础也能即开即用。"
+            },
+            {
+              "name": "小幸修改器",
+              "url": "https://www.xiaoxingjie.com/",
+              "desc": "中文 PC 单机训练器站，按游戏提供功能修改器下载，标注适配版本，常见通过网盘分发，国产单机/经典单机覆盖较全，带风灵月影技术支持。"
+            },
+            {
+              "name": "GCM",
+              "url": "https://github.com/dyang886/Game-Cheats-Manager",
+              "desc": "源单机修改器管理器：把多源训练器收进一个面板，中英文搜游戏、一键下载解压归类、后台查更新、自动加 Windows Defender 白名单，还带反作弊绕过指引和社区上传审核，专治“满屏浏览器标签页找训练器”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "实用工具",
+      "groups": [
+        {
+          "id": "group_1793858302433",
+          "title": "解压缩工具(安卓)",
+          "items": [
+            {
+              "name": "MT管理器",
+              "url": "https://mt2.cn/",
+              "desc": "Android 端文件管理+逆向修改神器，双窗口同屏操作，支持 APK 解包/签名、资源提取、反编译、批量重命名、压缩解压等，玩机党和搞客户端拆包/汉化的人基本都装。"
+            },
+            {
+              "name": "NP管理器",
+              "url": "http://normalplayer.top",
+              "desc": "Android 端文件管理+APK 修改工具，除常规文件操作外，支持 Apk 等文件的查看、编辑与修改，偏 MT 管理器同类的玩机/拆包工具。"
+            },
+            {
+              "name": "ZArchiver Pro",
+              "url": "https://kawang.lanzoul.com/izM822xcu82d",
+              "desc": "Android 端专业压缩/解压工具，支持 RAR、ZIP、7z、分卷包、带密码压缩包，能直接看压缩包里的内容、提取单个文件。"
+            }
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "解压缩工具(PC)",
+          "items": [
+            {
+              "name": "Bandizip",
+              "url": "https://www.bandisoft.com/bandizip/",
+              "desc": "Windows 端高性能压缩/解压工具，支持 ZIP、7Z、RAR、ZIPX、ISO、TAR 等几十种格式；免费版够日常用，付费版多了密码管理、损坏压缩包抢救、密码恢复和压缩包内恶意软件扫描。"
+            },
+            {
+              "name": "7-Zip",
+              "url": "https://www.7-zip.org/",
+              "desc": "Windows 端开源压缩/解压工具，压缩率极高（尤其自家 7z 格式），完全免费可商用，支持 ZIP、RAR、TAR、ISO 等常见格式，老系统也能跑，没广告没会员。"
+            },
+            {
+              "name": "WinRAR",
+              "url": "https://www.winrar.com.cn/",
+              "desc": "老牌压缩解压软件，RAR/RAR5 格式的原生工具，压缩率高、能分卷打包、加密、修复损坏压缩包，也支持解压 ZIP/7Z/ISO/TAR 等常见格式。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793932097814",
+          "title": "开发工具",
+          "items": [
+            {
+              "name": "GitHub Desktop",
+              "url": "https://github.com/apps/desktop",
+              "desc": "图形化 Git 客户端，把分支切换、提交对比、暂存改动、改写提交历史、回退版本做成拖拽和点按操作，不用记命令行也能跑通协作流程，适合新手和不想跟 Git 较劲的人。",
+              "links": [
+                {
+                  "text": "汉化工具",
+                  "url": "https://github.com/cngege/GitHubDesktop2Chinese"
+                }
+              ]
+            },
+            {
+              "name": "VS Code",
+              "url": "https://code.visualstudio.com/",
+              "desc": "微软开源的跨平台代码编辑器，写代码、调试、跑终端、管 Git 一站式搞定；扩展市场 8 万+ 插件，几乎支持所有语言，现在还深度集成 Copilot 和多 Agent 协作，能本地/云端并行派活给 AI 写功能、修 Bug、提 PR。"
+            },
+            {
+              "name": "百度统计",
+              "url": "https://mtj.baidu.com/",
+              "desc": "百度出的移动端数据统计平台，给 APP / 小程序 / H5 接个轻量 SDK，就能看活跃用户、留存、漏斗、崩溃日志、渠道效果和用户画像，产品运营研发都能用，基础功能免费。"
+            },
+            {
+              "name": "FusionApp2.0",
+              "url": "https://xiyatu.lanzouq.com/b00hpvsa3g",
+              "desc": "安卓端“网页转应用”制作工具：把网站包成本地客户端，可视化搭顶栏/底栏/侧滑/悬浮按钮，支持 Lua 脚本做事件监听、广告屏蔽、交互定制，内置图标库和图标设计器，小白也能快速出一个“像原生 App”的壳子。",
+              "links": [
+                {
+                  "text": "修改版",
+                  "url": "https://xiyatu.lanzouq.com/b00hpwl25e"
+                },
+                {
+                  "text": "辅助工具",
+                  "url": "https://xiyatu.lanzouq.com/b04lb88gj"
+                },
+                {
+                  "text": "部分开源项目",
+                  "url": "https://xiyatu.lanzouq.com/b00hqb3nfc"
+                },
+                {
+                  "text": "lua官方解密工具",
+                  "url": "https://xiyatu.lanzouq.com/b00hqdgfgf"
+                },
+                {
+                  "text": "简易网页套壳教程模板(上)",
+                  "url": "https://www.bilibili.com/video/BV1srxRe9EU7/"
+                },
+                {
+                  "text": "简易网页套壳教程模板(中)",
+                  "url": "https://www.bilibili.com/video/BV1xrxRe9E53/"
+                },
+                {
+                  "text": "简易网页套壳教程模板(下)",
+                  "url": "https://www.bilibili.com/video/BV1N816YyEYL/"
+                },
+                {
+                  "text": "简易远程请求教学",
+                  "url": "https://www.bilibili.com/video/BV1GkNgeXEZA/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

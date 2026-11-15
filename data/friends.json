@@ -1,0 +1,8 @@
+[
+  {
+    "_comment": "示例条目，添加时无需_comment和hidden字段",
+    "hidden": true,
+    "name": "示例友站",
+    "url": "https://example.com"
+  }
+]

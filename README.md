@@ -1,44 +1,73 @@
-# 卡王的个人导航站
+# 卡王的导航
 
-这是一个基于静态 HTML/CSS/JS 构建的 Minecraft 主题个人导航站，集中整理卡王的官方社交账号、交流入口、网易版皮肤投稿方式和 Minecraft 代安装服务。同时收录浏览器搜索语法、崩溃日志分析、网页套壳工具等教程与实用资料，方便访问者快速找到需要的内容。
+一个无需构建工具的静态导航网站。项目使用 HTML、CSS、原生 JavaScript 和 JSON 文件，不依赖后端服务。
 
-## 🌐 主要入口
-- [主导航页面](https://kawangya.github.io/)
+## 功能
 
-## 📌 当前项目内容
-- 首页入口：index.html
-- 子页面：pages/，包含 浏览器搜索语法、通用跳转工具、个人应用和整合包分享页面
-- 页面样式：css/aistyle.css；css/style.css 为备用样式文件，部分页面使用内置样式
-- 通用脚本：js/script.js;js/protect.min.js，提供复制内容、图片放大、背景动画等功能
-- 图片资源：images/，包含网站图标和公众号、QQ 联系方式二维码
+- 按分类和分组浏览导航，支持关键词搜索和随机访问
+- 浏览、筛选和搜索公告，查看详情、图片及相关链接
+- 支持浅色/深色模式、多种主题配色和响应式布局
+- 可设置默认分类、链接打开方式、公告栏、友站链接及多链接卡片
+- 支持导入、导出本地设置
+- 主版本支持可视化编辑导航，并可选通过 GitHub API 保存导航数据
+- 提供不含云端同步和可视化编辑功能的纯展示版本
+- 支持快捷键 `/` 或 `Ctrl/Cmd+K` 聚焦导航搜索；方向键可在导航卡片间移动焦点
 
-## 🧱 项目结构
+## 项目结构
+
 ```text
-kw-nav/
-├── index.html              # 主页
-├── pages/                  # 子页面目录
-│   ├── llqssyf.html        # 浏览器搜索语法页面
-│   ├── tytzgj.html         # 通用跳转工具页面
-│   ├── wdyy.html           # 个人应用页面
-│   └── zhbfx.html          # Minecraft 整合包分享页面
-├── css/                    # 样式表目录
-│   ├── aistyle.css         # 页面通用样式
-│   └── style.css           # 备用样式文件
-├── js/                     # JavaScript 目录
-│   ├── protect.min.js      # 背景动画
-│   └── script.js           # 通用脚本
-├── images/                 # 图片资源目录
-│   ├── favicon.ico         # 网站图标
-│   ├── apple-touch-icon.png
-│   ├── qqhy.png            # 联系方式图片
-│   └── wxgzh.png           # 公众号图片
-├── LICENSE                 # 开源许可证
-└── README.md               # 项目说明
+.
+├── index.html             # 主版本入口
+├── data/
+│   ├── script.js          # 主版本交互逻辑与数据加载
+│   ├── style.css          # 主版本样式与响应式布局
+│   ├── nav.json           # 导航分类、分组和链接
+│   ├── notices.json       # 公告内容
+│   └── friends.json       # 友站链接
+├── 无编辑版/
+│   ├── index.html         # 纯展示版本入口
+│   ├── script.js          # 纯展示版本交互逻辑
+│   └── style.css          # 纯展示版本样式
+├── images/                # 页面使用的图片资源
+├── LICENSE                # MIT License
+└── README.md
 ```
 
-## ▶️ 使用方式
-- 直接在浏览器中打开 index.html 即可预览
-- 如果部署到 GitHub Pages 或其他静态托管服务，上传整个仓库内容即可
+## 本地预览
 
-## 📄 许可证
-本项目基于 [MIT License](LICENSE) 开源。
+在项目根目录启动静态 HTTP 服务，例如：
+
+```bash
+python -m http.server 8000
+```
+
+然后访问：
+
+- 主版本：<http://localhost:8000/>
+- 纯展示版本：<http://localhost:8000/%E6%97%A0%E7%BC%96%E8%BE%91%E7%89%88/>
+
+通过 HTTP 服务预览可避免浏览器限制直接读取本地 JSON 文件。项目无需安装依赖或执行构建。
+
+## 修改网站数据
+
+编辑 `data/nav.json`、`data/notices.json` 和 `data/friends.json`，保存时保持合法 JSON，并参照现有条目的字段结构。
+
+- 导航数据以 `categories`、`groups` 和 `items` 分层组织。
+- 公告支持标签、摘要、置顶状态、详情内容和相关链接。
+- 友站数据是链接列表；当前文件包含 `example.com` 示例条目，发布前请替换或删除。
+
+主版本和纯展示版本共用 `data/` 中的数据。部署时请保留目录结构，并确保静态主机可以提供这些 JSON 文件。
+
+## GitHub 云端同步（主版本）
+
+主版本设置面板中的可视化编辑可通过 GitHub API 将导航 JSON 保存到指定仓库。使用前需要配置目标仓库及具有相应内容写入权限的 Personal Access Token。
+
+Token 保存在当前浏览器的本地设置中，并由浏览器直接用于访问 GitHub API。仅在可信设备上使用，配置最小必要权限；不要将 Token 提交到仓库或分享给他人。导出的设置不包含 GitHub Token。
+
+## 部署
+
+项目可部署到 GitHub Pages 等静态托管服务。部署到其他域名或仓库路径时，请检查 `index.html` 中的 Open Graph URL 和图片地址，并确认相对路径下的页面资源和 JSON 数据仍可正常加载。
+
+## 许可
+
+本仓库中由项目作者创作的代码以 [MIT License](LICENSE) 发布。第三方图片、商标、名称、链接目标内容及其他第三方材料不因此自动获得授权，仍受各自权利人的许可或适用条款约束。使用或再分发这些材料前，请自行确认相应权利。
