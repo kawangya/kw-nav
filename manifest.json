@@ -4,8 +4,8 @@
     "description": "资源、工具与实用链接一站式入口",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#F7F4EC",
-    "theme_color": "#C07B57",
+    "background_color": "#F3F6F9",
+    "theme_color": "#3A79B8",
     "icons": [
         {
             "src": "images/apple-touch-icon.png",
