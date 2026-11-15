@@ -36,9 +36,7 @@
 python -m http.server 8000
 ```
 
-然后访问：
-
-- 主版本：<http://localhost:8000/>
+然后访问：<http://localhost:8000/>
 
 通过 HTTP 服务预览可避免浏览器限制直接读取本地 JSON 文件。项目无需安装依赖或执行构建。
 
