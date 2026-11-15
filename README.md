@@ -16,10 +16,10 @@
 
 ```text
 .
-├── index.html             # 主版本入口
+├── index.html             # 入口
 ├── data/
-│   ├── script.js          # 主版本交互逻辑与数据加载
-│   ├── style.css          # 主版本样式与响应式布局
+│   ├── script.js          # 交互逻辑与数据加载
+│   ├── style.css          # 样式与响应式布局
 │   ├── nav.json           # 导航分类、分组和链接
 │   ├── notices.json       # 公告内容
 │   └── friends.json       # 友站链接
