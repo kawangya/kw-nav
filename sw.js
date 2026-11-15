@@ -7,7 +7,12 @@ const ASSETS_TO_CACHE = [
     './data/script.js',
     './images/apple-touch-icon.png',
     './images/favicon.ico',
-    './images/qr.png'
+    './images/qr.png',
+    './images/qq.png',
+    './images/email.png',
+    './images/douyin.png',
+    './images/bilibili.png',
+    './images/notice/lanzou-ua.png',
 ];
 
 // 安装 Service Worker 并缓存核心资源
