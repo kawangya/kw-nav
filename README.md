@@ -9,8 +9,7 @@
 - 支持浅色/深色模式、多种主题配色和响应式布局
 - 可设置默认分类、链接打开方式、公告栏、友站链接及多链接卡片
 - 支持导入、导出本地设置
-- 主版本支持可视化编辑导航，并可选通过 GitHub API 保存导航数据
-- 提供不含云端同步和可视化编辑功能的纯展示版本
+- 支持可视化编辑导航，并可选通过 GitHub API 保存导航数据
 - 支持快捷键 `/` 或 `Ctrl/Cmd+K` 聚焦导航搜索；方向键可在导航卡片间移动焦点
 
 ## 项目结构
@@ -24,10 +23,6 @@
 │   ├── nav.json           # 导航分类、分组和链接
 │   ├── notices.json       # 公告内容
 │   └── friends.json       # 友站链接
-├── 无编辑版/
-│   ├── index.html         # 纯展示版本入口
-│   ├── script.js          # 纯展示版本交互逻辑
-│   └── style.css          # 纯展示版本样式
 ├── images/                # 页面使用的图片资源
 ├── LICENSE                # MIT License
 └── README.md
@@ -44,7 +39,6 @@ python -m http.server 8000
 然后访问：
 
 - 主版本：<http://localhost:8000/>
-- 纯展示版本：<http://localhost:8000/%E6%97%A0%E7%BC%96%E8%BE%91%E7%89%88/>
 
 通过 HTTP 服务预览可避免浏览器限制直接读取本地 JSON 文件。项目无需安装依赖或执行构建。
 
@@ -58,9 +52,9 @@ python -m http.server 8000
 
 主版本和纯展示版本共用 `data/` 中的数据。部署时请保留目录结构，并确保静态主机可以提供这些 JSON 文件。
 
-## GitHub 云端同步（主版本）
+## GitHub 云端同步
 
-主版本设置面板中的可视化编辑可通过 GitHub API 将导航 JSON 保存到指定仓库。使用前需要配置目标仓库及具有相应内容写入权限的 Personal Access Token。
+设置面板中的可视化编辑可通过 GitHub API 将导航 JSON 保存到指定仓库。使用前需要配置目标仓库及具有相应内容写入权限的 Personal Access Token。
 
 Token 保存在当前浏览器的本地设置中，并由浏览器直接用于访问 GitHub API。仅在可信设备上使用，配置最小必要权限；不要将 Token 提交到仓库或分享给他人。导出的设置不包含 GitHub Token。
 
