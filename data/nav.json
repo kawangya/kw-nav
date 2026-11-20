@@ -638,6 +638,32 @@
       "title": "实用工具",
       "groups": [
         {
+          "id": "group_1795145086450",
+          "title": "邮箱平台",
+          "items": [
+            {
+              "name": "Gmail",
+              "url": "https://mail.google.com/",
+              "desc": "Google 官方的网页版电子邮箱入口，登录 mail.google.com 收发 @gmail.com 邮件，属于 Google Workspace 生态，可从收件箱直接发起 Meet 视频通话、Chat 聊天、协同 Google 文档。"
+            },
+            {
+              "name": "Outlook",
+              "url": "https://outlook.live.com/mail/",
+              "desc": "微软官方的个人邮箱登录入口，浏览器打开 outlook.live.com 就能收发 @outlook.com / @hotmail.com / @live.com 邮件，同时管日历、联系人和任务，接入 OneDrive 附件与 Office 在线编辑。"
+            },
+            {
+              "name": "QQ邮箱",
+              "url": "https://mail.qq.com",
+              "desc": "腾讯官方的网页版邮箱登录入口，支持 QQ 登录、微信扫码登录、下次自动登录，附带帮助中心、账号安全和服务条款入口，是 QQ / 微信生态里最常用的邮件收发后台。"
+            },
+            {
+              "name": "网易免费邮箱",
+              "url": "https://email.163.com/",
+              "desc": "网易官方的网页版电子邮箱入口，登录 email.163.com 就能收发 163 / 126 / yeah.net 等网易系邮件，带通讯录、定时发信、超大附件、反垃圾反病毒和小网盘，免费可用。"
+            }
+          ]
+        },
+        {
           "id": "group_1795142706665",
           "title": "开源社区",
           "items": [
@@ -761,33 +787,6 @@
           ]
         },
         {
-          "id": "group_1795143263329",
-          "title": "浏览器脚本",
-          "items": [
-            {
-              "name": "Tampermonkey",
-              "url": "https://www.tampermonkey.net/",
-              "desc": "跨主流浏览器的用户脚本管理器，用来安装、管理、自动更新那些能改网页行为的 JavaScript 小脚本——加按钮、去广告、自动填表、增强页面功能都靠它。",
-              "links": [
-                {
-                  "text": "用户脚本分享仓库",
-                  "url": "https://greasyfork.org/"
-                }
-              ]
-            },
-            {
-              "name": "Violentmonkey",
-              "url": "https://violentmonkey.github.io/",
-              "desc": "开源无广告的用户脚本管理器，支持 Chrome、Firefox、Edge、Safari 等主流浏览器，用来装和管理 Greasy Fork 上的 .user.js 脚本。"
-            },
-            {
-              "name": "ScriptCat",
-              "url": "https://scriptcat.org/",
-              "desc": "国产开源的用户脚本管理器+脚本分享社区，完全兼容油猴脚本，额外支持后台脚本运行和丰富 API 扩展，Chrome / Edge 都能装。"
-            }
-          ]
-        },
-        {
           "id": "group_1793858302433",
           "title": "解压缩工具",
           "items": [
@@ -820,6 +819,90 @@
               "name": "ZArchiver Pro",
               "url": "https://kawang.lanzoul.com/izM822xcu82d",
               "desc": "Android 端专业压缩/解压工具，支持 RAR、ZIP、7z、分卷包、带密码压缩包，能直接看压缩包里的内容、提取单个文件。"
+            }
+          ]
+        },
+        {
+          "id": "group_1795143263329",
+          "title": "浏览器脚本",
+          "items": [
+            {
+              "name": "Tampermonkey",
+              "url": "https://www.tampermonkey.net/",
+              "desc": "跨主流浏览器的用户脚本管理器，用来安装、管理、自动更新那些能改网页行为的 JavaScript 小脚本——加按钮、去广告、自动填表、增强页面功能都靠它。",
+              "links": [
+                {
+                  "text": "用户脚本分享仓库",
+                  "url": "https://greasyfork.org/"
+                }
+              ]
+            },
+            {
+              "name": "Violentmonkey",
+              "url": "https://violentmonkey.github.io/",
+              "desc": "开源无广告的用户脚本管理器，支持 Chrome、Firefox、Edge、Safari 等主流浏览器，用来装和管理 Greasy Fork 上的 .user.js 脚本。"
+            },
+            {
+              "name": "ScriptCat",
+              "url": "https://scriptcat.org/",
+              "desc": "国产开源的用户脚本管理器+脚本分享社区，完全兼容油猴脚本，额外支持后台脚本运行和丰富 API 扩展，Chrome / Edge 都能装。"
+            }
+          ]
+        },
+        {
+          "id": "group_1795144689849",
+          "title": "远程工具",
+          "items": [
+            {
+              "name": "ToDesk",
+              "url": "https://www.todesk.com/",
+              "desc": "国内主流远程控制软件，主打高清高帧、低延迟远控，支持 Windows / macOS / Linux / 安卓 / iOS / 鸿蒙全平台互通。"
+            },
+            {
+              "name": "UU远程",
+              "url": "https://uuyc.163.com/",
+              "desc": "网易出品的免费远程控制 / 串流工具，主打低延迟、真 4K 高刷、多端互通（Win / Mac / 手机 / 平板 / iPad 外接键盘），带按键映射、手柄支持、游戏自动识别和跨设备文件传输，远程办公、外出改文件、手机远控电脑打端游都够用。"
+            }
+          ]
+        },
+        {
+          "id": "group_1795145327377",
+          "title": "存储平台",
+          "items": [
+            {
+              "name": "百度网盘",
+              "url": "https://pan.baidu.com/",
+              "desc": "百度官方的云存储与文件分享平台，网页版免安装，登录 pan.baidu.com 就能上传下载、云端备份、在线预览文档/图片/音视频、生成分享链接和提取码，还能转存他人资源、用同步空间多端自动同步。"
+            },
+            {
+              "name": "蓝奏云",
+              "url": "https://pc.woozooo.com/",
+              "desc": "国内老牌轻量文件分享网盘：注册后网页拖拽上传，生成外链直接发给别人，下载不限速、免登录、无验证码，主打“上传即分享”而不是长期备份。"
+            },
+            {
+              "name": "小飞机网盘",
+              "url": "https://www.feejii.com/",
+              "desc": "福建顶好信息技术有限公司旗下的个人云存储/文件分享网盘，定位就是\"分享、下载、存储更简单\"。"
+            },
+            {
+              "name": "光鸭云盘",
+              "url": "https://www.guangyapan.com/",
+              "desc": "迅雷旗下光闪云科技 2026 年推出的新云存储产品，主打大空间 + 不限速 + 免登录分享，注册即送 2TB 永久免费，会员最高扩到 500TB。"
+            },
+            {
+              "name": "123云盘",
+              "url": "https://www.123pan.com/",
+              "desc": "国内主打免费不限速、下载免登录、直链 CDN​ 的云存储/文件分享平台，网页端免装就能传能下，也有 Win / Mac / Android / iOS / TV 全端客户端。"
+            },
+            {
+              "name": "阿里云盘",
+              "url": "https://www.aliyundrive.com/",
+              "desc": "阿里系云存储与文件分享平台，主打速度快、不打扰、够安全、易于分享，网页端免装就能上传下载、云端备份、在线预览文档/图片/音视频，也能生成分享链接，手机 / PC / TV 多端同步。"
+            },
+            {
+              "name": "夸克网盘",
+              "url": "https://pan.quark.cn/",
+              "desc": "阿里系多端云盘，网页版 + Win/Mac/安卓/iOS/鸿蒙/TV/iPad 全覆盖，主打备份、AI 管理、沉浸观影三件事。"
             }
           ]
         }
