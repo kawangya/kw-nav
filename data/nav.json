@@ -638,44 +638,18 @@
       "title": "实用工具",
       "groups": [
         {
-          "id": "group_1793858302433",
-          "title": "解压缩工具(安卓)",
+          "id": "group_1795142706665",
+          "title": "开源社区",
           "items": [
             {
-              "name": "MT管理器",
-              "url": "https://mt2.cn/",
-              "desc": "Android 端文件管理+逆向修改神器，双窗口同屏操作，支持 APK 解包/签名、资源提取、反编译、批量重命名、压缩解压等，玩机党和搞客户端拆包/汉化的人基本都装。"
+              "name": "GitHub",
+              "url": "https://github.com/",
+              "desc": "全球最大的代码托管与开源协作平台，提供仓库管理、Issues 协作、Pull Request 代码审查、Actions 自动化 CI/CD、Copilot AI 编程、安全扫描和 Codespaces 云开发环境，开发者日常协作和开源生态基本都绕不开它。"
             },
             {
-              "name": "NP管理器",
-              "url": "http://normalplayer.top",
-              "desc": "Android 端文件管理+APK 修改工具，除常规文件操作外，支持 Apk 等文件的查看、编辑与修改，偏 MT 管理器同类的玩机/拆包工具。"
-            },
-            {
-              "name": "ZArchiver Pro",
-              "url": "https://kawang.lanzoul.com/izM822xcu82d",
-              "desc": "Android 端专业压缩/解压工具，支持 RAR、ZIP、7z、分卷包、带密码压缩包，能直接看压缩包里的内容、提取单个文件。"
-            }
-          ]
-        },
-        {
-          "id": "tools",
-          "title": "解压缩工具(PC)",
-          "items": [
-            {
-              "name": "Bandizip",
-              "url": "https://www.bandisoft.com/bandizip/",
-              "desc": "Windows 端高性能压缩/解压工具，支持 ZIP、7Z、RAR、ZIPX、ISO、TAR 等几十种格式；免费版够日常用，付费版多了密码管理、损坏压缩包抢救、密码恢复和压缩包内恶意软件扫描。"
-            },
-            {
-              "name": "7-Zip",
-              "url": "https://www.7-zip.org/",
-              "desc": "Windows 端开源压缩/解压工具，压缩率极高（尤其自家 7z 格式），完全免费可商用，支持 ZIP、RAR、TAR、ISO 等常见格式，老系统也能跑，没广告没会员。"
-            },
-            {
-              "name": "WinRAR",
-              "url": "https://www.winrar.com.cn/",
-              "desc": "老牌压缩解压软件，RAR/RAR5 格式的原生工具，压缩率高、能分卷打包、加密、修复损坏压缩包，也支持解压 ZIP/7Z/ISO/TAR 等常见格式。"
+              "name": "Gitee",
+              "url": "https://gitee.com/",
+              "desc": "国内基于 Git 的代码托管与研发协作平台，支持仓库管理、PR/CR 代码评审、DevOps 流水线、测试与制品管理，并集成 AI 辅助编码和项目协作。"
             }
           ]
         },
@@ -742,6 +716,110 @@
                   "url": "https://www.bilibili.com/video/BV1GkNgeXEZA/"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "group_1795142730889",
+          "title": "代理工具",
+          "items": [
+            {
+              "name": "clash-verge",
+              "url": "https://www.clashverge.dev/",
+              "desc": "基于 Tauri 的现代 GUI 客户端，设计用于 Windows、macOS 和 Linux 上，提供量身定制的代理体验。"
+            },
+            {
+              "name": "v2rayN",
+              "url": "https://v2rayn.2dust.link/",
+              "desc": "适用于 Windows、Linux 和 macOS 的图形界面客户端，支持 Xray、Sing-box 等。"
+            },
+            {
+              "name": "ClashMeta",
+              "url": "https://github.com/MetaCubeX/ClashMetaForAndroid",
+              "desc": "基于规则的 Android 隧道。"
+            },
+            {
+              "name": "v2rayNG",
+              "url": "https://v2rayng.2dust.link/",
+              "desc": "一款适用于 Android 的 V2Ray 客户端，支持 Xray 核心和 v2fly 核心。"
+            },
+            {
+              "name": "FlClash",
+              "url": "https://chen08209.github.io/FlClash/",
+              "desc": "基于 ClashMeta 的多平台代理客户端，简单易用，开源且无广告。"
+            },
+            {
+              "name": "Clash Mi",
+              "url": "https://clashmi.app/",
+              "desc": "又一款mihomo核心的代理工具。"
+            },
+            {
+              "name": "Clash Box",
+              "url": "https://github.com/xiaobaigroup/ClashBox",
+              "desc": "HarmonyOS NEXT的代理软件。"
+            }
+          ]
+        },
+        {
+          "id": "group_1795143263329",
+          "title": "浏览器脚本",
+          "items": [
+            {
+              "name": "Tampermonkey",
+              "url": "https://www.tampermonkey.net/",
+              "desc": "跨主流浏览器的用户脚本管理器，用来安装、管理、自动更新那些能改网页行为的 JavaScript 小脚本——加按钮、去广告、自动填表、增强页面功能都靠它。",
+              "links": [
+                {
+                  "text": "用户脚本分享仓库",
+                  "url": "https://greasyfork.org/"
+                }
+              ]
+            },
+            {
+              "name": "Violentmonkey",
+              "url": "https://violentmonkey.github.io/",
+              "desc": "开源无广告的用户脚本管理器，支持 Chrome、Firefox、Edge、Safari 等主流浏览器，用来装和管理 Greasy Fork 上的 .user.js 脚本。"
+            },
+            {
+              "name": "ScriptCat",
+              "url": "https://scriptcat.org/",
+              "desc": "国产开源的用户脚本管理器+脚本分享社区，完全兼容油猴脚本，额外支持后台脚本运行和丰富 API 扩展，Chrome / Edge 都能装。"
+            }
+          ]
+        },
+        {
+          "id": "group_1793858302433",
+          "title": "解压缩工具",
+          "items": [
+            {
+              "name": "Bandizip",
+              "url": "https://www.bandisoft.com/bandizip/",
+              "desc": "Windows 端高性能压缩/解压工具，支持 ZIP、7Z、RAR、ZIPX、ISO、TAR 等几十种格式；免费版够日常用，付费版多了密码管理、损坏压缩包抢救、密码恢复和压缩包内恶意软件扫描。"
+            },
+            {
+              "name": "7-Zip",
+              "url": "https://www.7-zip.org/",
+              "desc": "Windows 端开源压缩/解压工具，压缩率极高（尤其自家 7z 格式），完全免费可商用，支持 ZIP、RAR、TAR、ISO 等常见格式，老系统也能跑，没广告没会员。"
+            },
+            {
+              "name": "WinRAR",
+              "url": "https://www.winrar.com.cn/",
+              "desc": "老牌压缩解压软件，RAR/RAR5 格式的原生工具，压缩率高、能分卷打包、加密、修复损坏压缩包，也支持解压 ZIP/7Z/ISO/TAR 等常见格式。"
+            },
+            {
+              "name": "MT管理器",
+              "url": "https://mt2.cn/",
+              "desc": "Android 端文件管理+逆向修改神器，双窗口同屏操作，支持 APK 解包/签名、资源提取、反编译、批量重命名、压缩解压等，玩机党和搞客户端拆包/汉化的人基本都装。"
+            },
+            {
+              "name": "NP管理器",
+              "url": "http://normalplayer.top",
+              "desc": "Android 端文件管理+APK 修改工具，除常规文件操作外，支持 Apk 等文件的查看、编辑与修改，偏 MT 管理器同类的玩机/拆包工具。"
+            },
+            {
+              "name": "ZArchiver Pro",
+              "url": "https://kawang.lanzoul.com/izM822xcu82d",
+              "desc": "Android 端专业压缩/解压工具，支持 RAR、ZIP、7z、分卷包、带密码压缩包，能直接看压缩包里的内容、提取单个文件。"
             }
           ]
         }
