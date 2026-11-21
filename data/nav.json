@@ -235,7 +235,7 @@
         },
         {
           "id": "group_1795226883448",
-          "title": "服务器",
+          "title": "游戏开服",
           "items": [
             {
               "name": "简幻欢",
@@ -930,6 +930,27 @@
               "name": "夸克网盘",
               "url": "https://pan.quark.cn/",
               "desc": "阿里系多端云盘，网页版 + Win/Mac/安卓/iOS/鸿蒙/TV/iPad 全覆盖，主打备份、AI 管理、沉浸观影三件事。"
+            }
+          ]
+        },
+        {
+          "id": "group_1795227259257",
+          "title": "下载工具",
+          "items": [
+            {
+              "name": "BitComet",
+              "url": "https://www.bitcomet.com/",
+              "desc": "2003 年起步的老牌多协议下载器，C++ 内核，主打 BT 磁力 + HTTP/FTP 直链一把梭，跨平台覆盖 Windows / macOS / Linux / Android，个人非商用免费。"
+            },
+            {
+              "name": "IDM",
+              "url": "https://www.internetdownloadmanager.com/",
+              "desc": "Tonec 出品的老牌 Windows 下载加速器，从 1999 年做到现在，官网 internetdownloadmanager.com。"
+            },
+            {
+              "name": "Gopeed",
+              "url": "https://gopeed.com/",
+              "desc": "Go + Flutter 写的免费开源多协议下载器，一个客户端同时管 HTTP/HTTPS、BT 种子、磁力、ed2k 四类任务，GPL-3.0 协议，无广告无追踪。"
             }
           ]
         }
