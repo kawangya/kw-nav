@@ -234,6 +234,17 @@
           ]
         },
         {
+          "id": "group_1795226883448",
+          "title": "服务器",
+          "items": [
+            {
+              "name": "简幻欢",
+              "url": "https://simpfun.cn/auth?type=register&code=311793362",
+              "desc": "2018 年起运营的非营利云服务器/项目托管平台，主打浏览器里就能管服务器，不用装软件、不敲命令。"
+            }
+          ]
+        },
+        {
           "id": "skin",
           "title": "皮肤披风相关",
           "items": [
