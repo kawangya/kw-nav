@@ -986,6 +986,50 @@
       "title": "娱乐导航",
       "groups": [
         {
+          "id": "group_1795228610682",
+          "title": "视频",
+          "items": [
+            {
+              "name": "哔哩哔哩",
+              "url": "https://www.bilibili.com/",
+              "desc": "国内老牌弹幕视频社区 + 综合 UGC 平台网页入口，从早期 ACG 垂直站扩成了现在覆盖番剧、国创、直播、游戏、知识、科技、生活、AI、影视全品类的内容生态。",
+              "links": [
+                {
+                  "text": "创作者中心",
+                  "url": "https://member.bilibili.com/"
+                }
+              ]
+            },
+            {
+              "name": "抖音",
+              "url": "https://www.douyin.com/",
+              "desc": "字节跳动官方的短视频与直播平台网页入口，打开 douyin.com 就能刷推荐流、搜视频/话题/用户、看直播，也能管理自己的作品、评论和账号资料。",
+              "links": [
+                {
+                  "text": "创作者中心",
+                  "url": "https://creator.douyin.com/"
+                }
+              ]
+            },
+            {
+              "name": "快手",
+              "url": "https://www.kuaishou.com/",
+              "desc": "快手官方的短视频与直播平台网页入口，打开 kuaishou.com 就能刷推荐/发现/关注流、搜视频和主播、看直播，页面里也挂了赛事和可灵 AI 入口。",
+              "links": [
+                {
+                  "text": "创作者中心",
+                  "url": "https://cp.kuaishou.com/"
+                }
+              ]
+            },
+            {
+              "name": "视频号助手",
+              "url": "https://channels.weixin.qq.com/",
+              "desc": "微信官方给视频号创作者/运营者用的电脑端管理后台，浏览器打开 channels.weixin.qq.com、手机微信扫码登录，把发视频、看数据、管直播、回评论这些事全收在一个网页里 。"
+            }
+          ]
+        },
+        {
           "id": "group_1795157512994",
           "title": "影视",
           "items": [
@@ -998,6 +1042,11 @@
               "name": "555电影",
               "url": "https://555cin.vip/",
               "desc": "免费在线影视聚合站，主打电影、连续剧、Netflix 新剧、动漫、综艺纪录和短剧，首页带追剧周表、排行榜、专题推荐、留言求片和 APP 入口，标称提供 1080P / 4K 蓝光资源。"
+            },
+            {
+              "name": "热播之家",
+              "url": "https://rebozj.pro/",
+              "desc": "免费在线影视聚合/追剧站，走典型采集播放线路，分类覆盖电视剧、电影、综艺、动漫，页面直接搜片名看播放，嗅探规则里带 m3u8 / mp4 / 123pan 网盘源，属于“搜索 + 在线播 + 网盘转存”混合型 。"
             }
           ]
         },
