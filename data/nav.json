@@ -938,6 +938,11 @@
           "title": "下载工具",
           "items": [
             {
+              "name": "Gopeed",
+              "url": "https://gopeed.com/",
+              "desc": "Go + Flutter 写的免费开源多协议下载器，一个客户端同时管 HTTP/HTTPS、BT 种子、磁力、ed2k 四类任务，GPL-3.0 协议，无广告无追踪。"
+            },
+            {
               "name": "BitComet",
               "url": "https://www.bitcomet.com/",
               "desc": "2003 年起步的老牌多协议下载器，C++ 内核，主打 BT 磁力 + HTTP/FTP 直链一把梭，跨平台覆盖 Windows / macOS / Linux / Android，个人非商用免费。"
@@ -948,9 +953,24 @@
               "desc": "Tonec 出品的老牌 Windows 下载加速器，从 1999 年做到现在，官网 internetdownloadmanager.com。"
             },
             {
-              "name": "Gopeed",
-              "url": "https://gopeed.com/",
-              "desc": "Go + Flutter 写的免费开源多协议下载器，一个客户端同时管 HTTP/HTTPS、BT 种子、磁力、ed2k 四类任务，GPL-3.0 协议，无广告无追踪。"
+              "name": "Rayburst",
+              "url": "https://rayburst.pages.dev/",
+              "desc": "开源多协议下载管理器，用 Aria2 Next 引擎（基于 aria2 改的活跃分支）驱动，原生窗口跑在 Windows / macOS / Linux 三端，MIT 协议开源。"
+            },
+            {
+              "name": "GD3",
+              "url": "https://gd.xychr.com/",
+              "desc": "GPL-3.0 开源的全能下载器，Python + PySide6 写的，把 HTTP、BT/磁力、FTP、M3U8、MPEG-DASH、eD2k 六类协议收进同一个任务列表，Windows / macOS / Linux / Android 四端原生，配套 Chrome / Edge / Firefox 扩展。"
+            },
+            {
+              "name": "NDM",
+              "url": "https://www.neatdownloadmanager.com/",
+              "desc": "免费轻量的直链下载加速器，被当作 IDM 的免费替代品，同时覆盖 Windows 7+ 和 macOS 10.10+​ 两端，安装包只有 900KB / 1.4MB。"
+            },
+            {
+              "name": "aria2",
+              "url": "https://aria2.github.io/",
+              "desc": "老牌轻量级命令行下载工具，C++ 写的，GPL 开源，当前版本 1.37.0，一个二进制同时吃 HTTP/HTTPS、FTP、SFTP、BitTorrent、Metalink 五类协议。"
             }
           ]
         }
